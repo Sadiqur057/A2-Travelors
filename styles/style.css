@@ -50,6 +50,7 @@ header,main,footer{
   flex-shrink: 0;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 /* nav styles */
