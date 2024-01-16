@@ -887,6 +887,9 @@ footer{
     display: flex;
     margin: 24px auto;
   }
+  .deals-event-schedule{
+    gap: 20px;
+  }
 
 
   .perfect-place-section{
