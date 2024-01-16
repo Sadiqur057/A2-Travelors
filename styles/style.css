@@ -768,6 +768,9 @@ footer{
   .logo {
     font-size: 3rem;
   }
+  .navbar-container input[type="checkbox"]{
+    cursor: pointer;
+  }
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
