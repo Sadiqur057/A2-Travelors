@@ -393,7 +393,6 @@ main {
   background-repeat: no-repeat;
   border-radius: 16px;
   display: flex;
-  border: 1px solid red;
   justify-content: space-between;
 }
 .content-reverse{
@@ -641,12 +640,6 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .banner-content h1 {
-    font-size: 52px;
-  }
-  .image-content h3{
-    font-size: 18px;
-  }
   .deals-card-content{
     width: 65%;
   }
@@ -657,6 +650,12 @@ footer{
 /* tablet styles */
 
 @media screen and (max-width: 992px) {
+  .banner-content h1 {
+    font-size: 52px;
+  }
+  .image-content h3{
+    font-size: 18px;
+  }
   .banner-form form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -665,15 +664,15 @@ footer{
   .banner-content h1 {
     font-size: 38px;
   }
-
   .text-primary {
     margin-bottom: 18px;
     font-size: 14px;
   }
   .heading-primary {
-    font-size: 20px;
-    margin-bottom: 18px;
+    font-size: 26px;
+    
   }
+
   .popular-tour-content ul li {
     margin-bottom: 12px;
   }
@@ -785,6 +784,14 @@ footer{
 @media screen and (max-width: 720px) {
   .top-places-content, .choose-dest-content, .deals-text-content{
     margin-bottom: 24px;
+  }
+  .text-primary {
+    margin-bottom: 18px;
+    font-size: 14px;
+  }
+  .heading-primary {
+    font-size: 20px;
+    margin-bottom: 18px;
   }
   .choose-us-box-content{
     padding-top: 8px;
