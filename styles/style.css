@@ -781,6 +781,12 @@ footer{
 }
 
 @media screen and (max-width: 720px) {
+  .top-places-content, .choose-dest-content, .deals-text-content{
+    margin-bottom: 24px;
+  }
+  .choose-us-box-content{
+    padding-top: 8px;
+  }
   .popular-tour {
     flex-direction: column;
     gap: 23px;
