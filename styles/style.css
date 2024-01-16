@@ -908,6 +908,9 @@ footer{
     margin-top: 16px;
     margin-bottom: 14px;
   }
+  .perfect-place-img .img-title{
+    width: 80%;
+  }
   .perfect-place-img .img-title p{
     font-size: 20px;
     line-height: 30px;
